@@ -5,14 +5,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/toomp4/",
   build: {
     outDir: 'dist'
   },
   // @ts-ignore
-  base: process.env.GH_PAGES ? '/hackatonantikor/' : './',
-  server: {
-    fs: {
-      allow: ['../sdk', './'],
-    },
-  },
 })
