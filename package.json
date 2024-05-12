@@ -1,13 +1,13 @@
 {
-  "homepage": "https://44iitoompie44ka.github.io/toomp4sigma/",
-  "name": "demo-dapp-react-ui",
+  "homepage": "https://44iitoompie44ka.github.io/toomp4/",
+  "name": "pudge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --force",
-    "build": "tsc && GH_PAGES=true VITE_GH_PAGES=true vite build",
-    "build:dev": "tsc && vite build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -37,4 +37,5 @@
       "public"
     ]
   }
+
 }
