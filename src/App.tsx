@@ -37,8 +37,11 @@ function App() {
           }}
       >
         <div className="app">
+            <p>123123123123123123123123</p>
             <Header />
+            <p>123123123123123123123123</p>
             <TxForm />
+            <p>123123123123123123123123</p>
             <TonProofDemo />
             <Footer />
         </div>
