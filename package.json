@@ -34,7 +34,7 @@
   },
   "msw": {
     "workerDirectory": [
-      "public"
+      "server"
     ]
   }
 
